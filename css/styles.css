@@ -1026,6 +1026,10 @@ footer {
         margin-left: 95px;
     }
 
+    .check-text {
+        align-items: baseline;
+    }
+
 /*  backdrop-end  */
 
 }
@@ -1101,7 +1105,7 @@ footer {
     /*  fourth-start */
 
     .fourth-list-text {
-    width: calc((100% - 48px) / 3);
+        width: calc((100% - 48px) / 3);
     }
     .fourth-list {
         display: flex;
