@@ -175,13 +175,15 @@ img {
 /*  header-end  */
 
 
-/*  hero  */
+/*  hero-start  */
 
 .hero-section {
-    padding: 188px 0;
+    padding: 72px 0;
+    /*padding: 188px 0;*/
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img.jpg);
-    max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img-mob.jpg);
+    max-width: 320px;
+    /* max-width: 1440px;*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -192,13 +194,18 @@ img {
     color: #FFFFFF;
     text-align: center;
     font-family: Roboto;
-    font-size: 56px;
+    /*font-size: 56px;*/
+    font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    margin-bottom: 48px;
-    max-width: 496px;
+    /*line-height: 1.07;*/
+    line-height: 1.11;
+    /*letter-spacing: 0.02em;*/
+    letter-spacing: 0.045em;
+    /*margin-bottom: 48px;*/
+    margin-bottom: 72px;
+    /* max-width: 496px;*/
+    max-width: 220px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -861,7 +868,25 @@ footer {
 
 @media screen and (min-width: 768px) {
 
-/*  secondary-start */
+    /*  hero-start  */
+
+    .hero-section {
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img-tab.jpg);
+        max-width: 768px;
+    }
+
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07;
+        letter-spacing: 0.02em;
+        margin-bottom: 36px;
+        max-width: 496px;
+    }
+
+    /*  hero-end  */
+
+    /*  secondary-start */
     .container {
         max-width: 768px;
     }
@@ -909,6 +934,21 @@ footer {
 }
 
 @media screen and (min-width: 1158px) {
+   
+    /*  hero-start  */
+
+    .hero-section {
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-img.jpg);
+        max-width: 1440px;
+    }
+
+    .hero-title {
+        margin-bottom: 48px;
+    }
+
+
+    /*  hero-end  */
 
     /*  secondary-start */
     .container {
@@ -962,7 +1002,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         gap: 48px 24px;
-    /*    column-gap: 24px;
+    /*  column-gap: 24px;
         row-gap: 48px;*/
     }
     .fourth-section {
