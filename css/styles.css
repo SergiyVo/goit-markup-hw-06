@@ -492,7 +492,7 @@ img {
 footer {
     background-color: #2e2f42;
     /*padding: 100px 0;*/
-    padding: 97.5px 0 96px;
+    padding: 96px 0 96px;
 }
 
 .footer-container {
@@ -999,7 +999,12 @@ footer {
    }
 
    .subscribe-input {
-    
+        width: 264px;
+        height: 40px;
+   }
+
+   .footer-text {
+    max-width: 264px;
    }
 
 
@@ -1093,6 +1098,29 @@ footer {
     }
 
     /*  fourth-end */
+
+    /*  footer-start  */
+
+    .footer-first-container {
+        margin-left: 0;
+        margin-right: 120px;
+    }
+
+    .footer-third-container {
+        margin-left: 0;
+    }
+
+    footer {
+        padding: 100px 0;
+    }
+
+    .footer-container {
+        align-items: baseline;
+        gap: 0;
+    }
+
+
+    /*  footer-end  */
 }
 
 
