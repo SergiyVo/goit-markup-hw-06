@@ -491,16 +491,19 @@ img {
 
 footer {
     background-color: #2e2f42;
-    padding: 100px 0;
+    /*padding: 100px 0;*/
+    padding: 97.5px 0 96px;
 }
 
 .footer-container {
     display: flex;
-    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 72px; /* */
+    /*align-items: baseline;*/
 }
 
 .footer-first-container {
-    margin-right: 120px;
+    /*margin-right: 120px;*/  
 }
 
 .footer-logo {
@@ -513,6 +516,7 @@ footer {
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 17.5px;
+    margin-left: 86px; /**/
 }
 
 .footer-logo .accent {
@@ -523,7 +527,8 @@ footer {
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px;
+    /*max-width: 264px;*/
+    max-width: 288px;
 }
 
 .social-media-text {
@@ -532,6 +537,7 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
+    margin-left: 96px; /**/
 }
 
 .footer-first-container {
@@ -542,6 +548,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-left: 40px; /**/
 }
 
 .footer-icons {
@@ -572,6 +579,7 @@ footer {
 .footer-second-container {
     margin-right: 80px;
 }
+
 .subscribe-title {
     margin-bottom: 16px;
     font-weight: 500;
@@ -579,15 +587,19 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-left: 106px; /**/
 }
 
 .subscribe-form {
     display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .subscribe-input {
-    width: 264px;
+    /*  width: 264px;
+    height: 40px;*/
+    width: 288px;
     height: 40px;
     border: 1px solid #ffffff;
     background-color: transparent;
@@ -621,11 +633,15 @@ footer {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    margin-left: 61px; /* */
 }
 
 .submit-icon {
     margin-left: 16px;
 }
+
+
+
 
 /*  footer-end  */
 
@@ -946,6 +962,48 @@ footer {
     }
 
     /*  fourth-end */
+
+    /*  footer-start  */
+
+    .footer-container {
+        gap: 72px 24px;
+        /*align-items: baseline;*/
+    }
+
+    .footer-first-container {
+        margin-left: 92px;
+    }
+
+    .footer-logo {
+        margin-left: 0;
+    }
+
+    .social-media-text {
+        margin-left: 0;
+    }    
+
+    .footer-soc {
+        margin-left: 0;
+    }
+
+    .subscribe-title {
+        margin-left: 0;
+    }
+
+    .footer-third-container {
+        margin-left: 92px;        
+   }
+
+   .subscribe-btn {
+        margin-left: 0;
+   }
+
+   .subscribe-input {
+    
+   }
+
+
+/*  footer-end */
 
 }
 
