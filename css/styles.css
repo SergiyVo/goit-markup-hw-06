@@ -433,7 +433,11 @@ img {
     padding-bottom: 96px;
 }
 
-
+.fourth-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+}
 
 .fourth-list-text {
     width: 100%;
