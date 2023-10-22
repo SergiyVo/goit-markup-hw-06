@@ -53,6 +53,7 @@ img {
 }
 
 
+
 /*  header-start  */
 
 .header {
@@ -69,7 +70,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
+/* margin-right: 76px;*/
 }
 
 .container-header {
@@ -78,24 +79,27 @@ img {
 }
 
 .header-nav {
-    display: flex;
+  /*  display: flex; */
     align-items: center;
+    padding: 17.5px 0;
 }
 
 .header-menu {
     display: flex;
     gap: 40px;
-
 }
 
-.header-menu-text {}
+.header-menu-text {
+
+}
 
 .header-logo .accent {
     color: #2E2F42;
 }
 
 .header-link {
-    color: #2E2F42;
+
+    /* color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     font-family: Roboto;
@@ -105,7 +109,8 @@ img {
     display: block;
     padding: 24px 0;
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+    display: none; /* */
 }
 
 .header-link-accent {
@@ -147,6 +152,7 @@ img {
     font-style: normal;
     display: flex;
     margin-left: auto;
+    display:none; /* */
 }
 
 .header-address {
@@ -170,6 +176,18 @@ img {
 
 .contacts-link:focus {
     color: #404BBF;
+}
+
+
+.menu-mob-btn {
+    cursor: pointer;
+    background: #ffffff;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    margin-left: 149px; /* */
 }
 
 /*  header-end  */
@@ -894,9 +912,65 @@ footer {
 
 /*  backdrop-end  */
 
+
+
+/* mob-menu-start */
+
+.mob-menu {
+    width: 320px;
+    height: 640px;
+    background-color: #ffffff;
+}
+
+/* mob-menu-end */
+
+
+
+
 /*  media-start  */
 
 @media screen and (min-width: 768px) {
+   
+   
+    /*  header-start  */
+    .menu-mob-btn {
+        display: none;
+    }
+
+    .header-link {
+        color: #2E2F42;
+        font-weight: 500;
+        font-size: 16px;
+        font-family: Roboto;
+        line-height: 1.5;
+        font-style: normal;
+        letter-spacing: 0.02em;
+        display: block;
+        padding: 24px 0;
+        position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    }
+
+    .header-logo {
+        margin-right: 76px;
+    }
+
+    .address {
+        display: block;
+    }
+
+    .header-nav {
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+
+    .header-address {
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-left: 121px;
+    }
+    /*  header-end  */
 
     /*  hero-start  */
 
@@ -1036,6 +1110,14 @@ footer {
 
 @media screen and (min-width: 1158px) {
    
+    /*  header-end  */
+
+    .header-address {
+        gap: 40px; 
+        margin-left: 0;
+    }
+    /*  header-end  */
+
     /*  hero-start  */
 
     .hero-section {
