@@ -1328,6 +1328,8 @@ footer {
         padding-left: 15px;
         padding-right: 15px;
     }
+
+    
     .secondary-list-text {
         width: calc((100% - 72px) / 4);
     }
@@ -1367,7 +1369,9 @@ footer {
     .third-list {
         gap: 24px;
     }
-
+    .container-third {
+        width: 1128px;
+    }
     /*  third-end */
 
     /*  fourth-start */
@@ -1394,6 +1398,17 @@ footer {
 
     /*  footer-start  */
 
+    .footer-container {
+        flex-wrap: nowrap;
+        width: 1128px;
+        align-items: baseline;
+        gap: 0;
+    }
+
+    .subscribe-form {
+        flex-wrap: nowrap;
+    }
+
     .footer-first-container {
         margin-left: 0;
         margin-right: 120px;
@@ -1408,8 +1423,7 @@ footer {
     }
 
     .footer-container {
-        align-items: baseline;
-        gap: 0;
+
     }
 
 
