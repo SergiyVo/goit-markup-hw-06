@@ -920,6 +920,9 @@ footer {
     height: 100vh;
     background-color: #ffffff;
     padding: 24px 24px 40px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     opacity: 0;
     visibility: hidden;
     pointer-events: auto;
@@ -974,9 +977,6 @@ footer {
 }
 
 
-
-
-
 .mob-header-menu {
     margin-top: 48px;
 }
@@ -1010,7 +1010,7 @@ footer {
 }
 
 .mob-address {
-    margin-top: 168px;
+    margin: 0 auto;
 }
 
 .mob-menu-address:not(:last-child) {
