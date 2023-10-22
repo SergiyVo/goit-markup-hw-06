@@ -436,7 +436,7 @@ img {
 .fourth-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 72px;
 }
 
 .fourth-list-text {
